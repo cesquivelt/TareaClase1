@@ -1,1 +1,94 @@
+(entro a descargar)
 https://git-scm.com/download/linux
+
+
+(entro a github me registro)
+cesquivelt@toluca.tecnm.mx
+
+(entro a home)
+(hago nuevo repositorio-> a la izquierda)
+(repositorio publico)
+
+
+no sale una direccion para nuestro repositorio https://github.com/cesquivelt/proyecto2.git
+
+
+
+
+en alguna ruta local 
+C:\Users\caro0\Desktop\CompuNube\u3
+
+
+dentro de ella clic derecho ->mas opciones->Open Git Bash here
+	
+
+(abre terminal)
+git init
+ls -la
+git config user.name "cesquivelt"
+git config user.email "cesquivelt@toluca.tecnm.mx"
+
+(crear archivos y carpetas desde consola)
+
+git status
+
+git add archivo1.txt   (añadir)
+git add .    (añadir todooo lo q sale en status)
+
+
+(confirmar)
+git commit -m "Commit 1 carito"
+
+git status 
+(todo bien)
+
+git log
+
+(AHORA MANDARLO A LA NUBE)
+git remote add origin "https://github.com/cesquivelt/proyecto2.git"
+
+
+(push pa enviar archivos)
+git push -u origin master  (origin y master pueden cambiar, depende el nombre y rama)
+(1ra vez )->(Sign in with your browser -> Autorizar)
+
+
+-------------------------
+CLONAR ALL REPOSITORIO REMOTO
+
+1.- Descargar zip
+2.-MODO PRO
+git clone https://github.com/cesquivelt/proyecto2.git
+
+---------------------------
+QUIERO BAJAR SOLO LOS CAMBIOS EN PROYECTO
+git pull origin master
+
+
+
+--------------------------
+RAMAS(branch)
+                   o------o--------------o 
+                   | 				|
+----o----------o-----o----o----------o--------o
+
+(en q rama estoy?)
+git branch
+
+(crear una nueva rama)
+git branch alu_carito
+(entrar a la rama)
+
+
+(cambiar nombre rama)
+git branch -m alu_carito new_carito
+
+
+(borrar rama)
+git branch -d alu_carito
+
+
+
+
+
+
